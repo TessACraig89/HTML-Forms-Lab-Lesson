@@ -23,6 +23,13 @@
         <div class="col-md-8 col-md-offset-2">
           <h1>5. Github Search</h1>
           <pre>
+            <form method="GET" action="https://github.com/search">
+              <label>Query
+                <input type="required" name="q"/>
+              </label>
+              <label>Language
+                <input type="required" name="l"/>
+              </label>
             Create an html `form` that searches github
             for code examples that match
               * a specific query (`q`)
@@ -32,6 +39,8 @@
             "form select" in "HTML" files:
 
             https://github.com/search?q=form%20select&l=HTML
+            <input type="submit"/>
+          </form>
           </pre>
         </div>
       </div>
